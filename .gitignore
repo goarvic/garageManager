@@ -5,6 +5,8 @@
 
 # web application files
 /web-app/WEB-INF/classes
+/gateDomain/web-app/WEB-INF/classes
+/gateManager/web-app/WEB-INF/classes
 
 # default HSQL database files for production mode
 /prodDb.*
@@ -16,7 +18,12 @@
 # logs
 /stacktrace.log
 /test/reports
-/logs
+/gateDomain/logs
+/gateManager/logs
+/gateDomain/test/reports
+/gateManager/test/reports
+/gateDomain/stacktrace.log
+/gateManager/stacktrace.log
 
 # project release file
 /*.war
@@ -24,10 +31,31 @@
 # plugin release files
 /*.zip
 /plugin.xml
+/gateDomain/plugin.xml
+/gateManager/plugin.xml
 
 # older plugin install locations
 /plugins
 /web-app/plugins
+/gateDomain/plugins
+/gateDomain/web-app/plugins
+/gateManager/plugins
+/gateManager/web-app/plugins
 
 # "temporary" build files
 /target
+/gateDomain/target
+/gateManager/target
+
+# Out
+/gateDomain/out
+/gateManager/out
+
+/gateDomain/.classpath
+/gateManager/.classpath
+
+/gateDomain/.project
+/gateManager/.project
+
+/gateDomain/.idea
+/gateManager/.idea
